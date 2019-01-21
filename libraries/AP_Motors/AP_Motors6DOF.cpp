@@ -177,7 +177,7 @@ void AP_Motors6DOF::setup_motors(motor_frame_class frame_class, motor_frame_type
         add_motor_raw_6dof(AP_MOTORS_MOT_3,     0,              0,              -1.0f,           0,              0,                  0.5f,              3);
         add_motor_raw_6dof(AP_MOTORS_MOT_4,     0,              0,              1.0f,            0,              0,                  0.5f,              4);
         add_motor_raw_6dof(AP_MOTORS_MOT_5,     0,              1.0f,           0,              0,                  0,                  0,           5);
-        add_motor_raw_6dof(AP_MOTORS_MOT_6,     0,              -1.0f,          0,              0f,              0,                  0,              6);
+        add_motor_raw_6dof(AP_MOTORS_MOT_6,     0,              -1.0f,          0,              0,              0,                  0,              6);
         // Put your custom motor setup here
         //break;
 
